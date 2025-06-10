@@ -1,0 +1,59 @@
+{
+  "name": "LearnCode - Code Snippet Manager",
+  "short_name": "LearnCode",
+  "description": "The ultimate platform for developers to store, share, and discover code snippets.",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#1f2937",
+  "background_color": "#111827",
+  "orientation": "portrait-primary",
+  "categories": ["productivity", "developer", "education"],
+  "lang": "en-US",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/learncode-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Upload Snippet",
+      "short_name": "Upload",
+      "description": "Upload a new code snippet",
+      "url": "/upload",
+      "icons": [
+        {
+          "src": "/learncode-icon.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Explore Snippets",
+      "short_name": "Explore",
+      "description": "Discover public code snippets",
+      "url": "/explore",
+      "icons": [
+        {
+          "src": "/placeholder.svg",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "My Profile",
+      "short_name": "Profile",
+      "description": "View your profile and snippets",
+      "url": "/profile",
+      "icons": [
+        {
+          "src": "/placeholder.svg",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ]
+}
